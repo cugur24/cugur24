@@ -1,16 +1,37 @@
-### Hi there 👋
+# Foobar
 
-<!--
-**cugur24/cugur24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Foobar is a Python library for dealing with word pluralization.
 
-Here are some ideas to get you started:
+## Installation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```csharp
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+# Resim Yükleme
+
+![](https://c.tenor.com/YLOq2tXS2R0AAAAC/monka-dmca.gif)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
